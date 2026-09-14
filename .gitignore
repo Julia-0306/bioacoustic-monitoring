@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data (large / regenerable — don't commit audio or the embedding DB)
+powdermill/
+powdermill_db/
+*.wav
+inference.csv
+emissions.csv
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+
+# OS
+.DS_Store
